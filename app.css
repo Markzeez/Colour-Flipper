@@ -1,0 +1,26 @@
+body {
+    transition: background-colour 0.5s;
+}
+
+section#colour-display{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 200px auto;
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    padding: 50px;
+    border-radius: 5px;
+
+}
+section#colour-display h1{
+    font-weight:900
+}
+section#colour-display #new-colour-btn{
+    width:100%;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    padding: 15px;
+    border: none;
+    font-size: 16px;
+}
